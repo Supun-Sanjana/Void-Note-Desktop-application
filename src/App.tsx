@@ -1,10 +1,13 @@
 import './App.css'
+import Layout from './components/Layout'
 
 function App() {
 
   return (
     <>
-      <h2>Void Note</h2>
+      <Layout>
+        <h1>App</h1>
+      </Layout>
     </>
   )
 }
